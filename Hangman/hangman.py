@@ -8,7 +8,7 @@ from hangman_art import stages, logo
 lives = 6
 
 
-print(logo) 
+print(logo)
 from hangman_words_api import get_random_word
 
 chosen_word = get_random_word()
